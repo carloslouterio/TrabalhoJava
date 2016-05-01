@@ -3,7 +3,7 @@ package br.univel.classeinterface;
 import java.lang.reflect.Field;
 import java.util.List;
 
-import classesgenericas.Dao;
+import br.univel.classgenerica.Dao;
 
 public class imp<T, Integer> implements Dao<T, Integer>{
 

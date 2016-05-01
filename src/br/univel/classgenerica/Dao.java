@@ -1,11 +1,11 @@
 package br.univel.classgenerica;
 
-public class Dao {
+public class Dao{
 	import java.util.List;
 
 	import br.univel.classeinterface.Cliente;
 
-	public interface Dao<T, K> {
+	public interface Dao <T, K> {
 		
 		public void Salvar(T t);
 		
